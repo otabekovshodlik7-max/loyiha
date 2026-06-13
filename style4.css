@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hc {
+    width: 100%;
+    background-color: #e5e5e5;
+    padding: 60px 40px;
+
+ 
+}
+
+.nb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.nl {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.lk a {
+    text-decoration: none;
+    color: #555;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.lk a.ac {
+    color: #000;
+    font-weight: bold;
+}
+
+.lr {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    transform: rotate(45deg);
+}
+
+.nr {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.bc {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+   
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bd {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: #222;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cb {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #222;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cb .ci {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.dt {
+    margin-bottom: 20px;
+}
+
+.dg {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.tr{
+    width: 600px;
+}
+.im {
+    flex: 2;
+    height: 520px;
+
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+}
+
+.th {
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-bottom: 30px;
+}
+
+.sm {
+    height: 92px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.di {
+    flex: 1.5;
+    background: #fff;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.dh h2 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.pr {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    color: #111;
+}
+
+.tx {
+    font-size: 11px;
+    color: #888;
+    margin-bottom: 25px;
+}
+
+.ds {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.lb {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.co {
+    margin-bottom: 25px;
+}
+
+.cl {
+    display: flex;
+    gap: 8px;
+}
+
+.cx {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.sz-sec {
+    margin-bottom: 20px;
+}
+
+.sz {
+    display: flex;
+    gap: 8px;
+}
+
+.sz span {
+    border: 1px solid #bbb;
+    padding: 6px 12px;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #fff;
+}
+
+.sz span.ac {
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.gu {
+    display: block;
+    font-size: 11px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+
+.at {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+
+.pi {
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: inline-block;
+}
+.ui{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+border: ;
+}
+img {
+    display: inline-block;
+    filter: blur(10px);
+    height: 100vh;
+    width: 100px;
+    transition:all 0.8s;
+    
+}
+.mbappe:hover {
+    filter: url(images.jpg);
+    width: 350px;
+    height: 100vh;
+    transition: 0.8s;
+    content: mbappe ;
+    font-size: 20px;
+    
+}
+
+.arda:hover {
+    filter: url(images.jpg);
+    width: 350px;
+        height: 100vh;
+    transition: 0.8s;
+}
+
+.real:hover {
+    filter: url(images.jpg);
+  
+    width: 350px;
+    height: 100vh;
+    transition: 0.8s;
+}
+
+.turk:hover {
+    filter: url(images.jpg);
+    width: 350px;
+    height: 100vh;
+    transition: 0.8s;
+}
+
+.kok:hover {
+    filter: url(images.jpg);
+    width: 350px;
+    height: 100vh;
+    transition: 0.8s;
+}
+body{
+    background-color: cadetblue;
+}
+::marker{
+ background-color: black;
+}
+.mbappe:hover{
+
+}
